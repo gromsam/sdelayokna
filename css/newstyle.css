@@ -1,0 +1,370 @@
+@charset "utf-8";
+@font-face {
+    font-family: LOBSTER; /* Гарнитура шрифта */
+    src: url(../font/lobster/LOBSTER.ttf); /* Для IE5-8 */
+    src: local(LOBSTER), url(../font/lobster/LOBSTER.ttf); /* Для остальных браузеров */
+   }
+
+@font-face {
+    font-family: Archangelsk; /* Гарнитура шрифта */
+    src: url(../font/Archangelsk/Archangelsk.ttf); /* Для IE5-8 */
+    src: local(Archangelsk), url(../font/Archangelsk/Archangelsk.ttf); /* Для остальных браузеров */
+   }
+
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+html, body {
+	background: none repeat scroll 0 0 #FF0000;
+    color: #444444;
+    font-family: verdana,sans-serif,Lucida Sans;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    line-height: 1.6em;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+	position: relative;
+}
+
+#content {
+	background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 200000;
+	}
+	
+#content #menu {
+	background: none repeat scroll 0 0 #7A848E;
+    height: 100%;
+    padding-left: 120px;
+    position: fixed;
+    right: 0;
+    width: 200px;
+}
+
+#content #menu ul {
+	list-style-type: none;
+    padding-right: 20px;
+	}
+
+#content #menu ul li {
+	 background: url("../images/divider.gif") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    padding-top: 10px;
+	padding-bottom: 10px
+	}
+
+#content #menu ul li a {
+	
+    padding-left: 15px;
+	}
+
+#content #menu ul li a:hover {
+	 background: url("../images/mar_manu.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+	}
+	
+#menu_submit {
+	background: url("../images/icon_str1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 48px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 48px;
+	cursor: pointer;
+	}
+#menu_submit2 {
+background: url("../images/icon_str2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 48px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 48px;
+	cursor: pointer;
+	}
+	
+	
+/* начало блока 1*/
+#content #b1 {
+	background:#333;
+    color: #999999;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+	
+#content #b1 #cont_b1_top {
+	background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 3px solid #FF0000;
+    height: 86px;
+	}
+
+#content #b1 #cont_b1_top h2 {
+	font: 50px Archangelsk;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #222222;
+	}
+#content #b1 #cont_b1_top h2 strong {
+	color:red;
+	}
+	
+#content #b1 #b1_content {}
+
+#content #b1 #b1_content .por2 {
+	float: left;
+    margin: 1%;
+    min-height: 25%;
+    text-align: center;
+    width: 98%;
+	}
+
+#content #b1 #b1_content .por2 h3 {
+	background: url("../images/border_content.jpg") repeat-x scroll 0 bottom rgba(0, 0, 0, 0);
+    color: #F1F1F1;
+    font: 2.3em Archangelsk;
+    padding: 15px;
+    text-align: left;
+	}
+#content #b1 #b1_content .por2 p {
+	color: #F1F1F1;
+    font: 1em verdana;
+    padding: 20px;
+    text-align: left;
+	}
+
+#content #b1 #b1_footer {
+	 background: none repeat scroll 0 0 #A1A1A1;
+    border-top: 3px solid #FF0000;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 85px;
+    position: absolute;
+    width: 100%;
+	}
+#content #b1 #b1_footer .gorod {
+	height: 19px;
+    margin: 33px 15px;
+    width: 144px;
+}
+#content #b1 #b1_footer #niz_buttom_b1 {
+ background: url("../images/niz.png") no-repeat scroll center 13px rgba(0, 0, 0, 0);
+    border: 2px solid #A9A9A9;
+    border-radius: 87px;
+    bottom: 9px;
+    cursor: pointer;
+    height: 60px;
+    left: 49%;
+    margin: 0 auto;
+    padding: 2px;
+    position: absolute;
+    width: 60px;
+	}
+/* конец блока 1*/
+
+
+/* начало блока 2*/
+#menu_submit_pochemu_mi {
+	background: url("../images/icon_str1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 48px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 48px;
+	cursor: pointer;
+	}
+#menu_submit2_pochemu_mi {
+background: url("../images/icon_str2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 48px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 48px;
+	cursor: pointer;
+	}
+	
+
+#content #pochemu_mi {
+	background:#333;
+    color: #999999;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+	
+#content #pochemu_mi #cont_pochemu_mi_top {
+	background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 3px solid #FF0000;
+    height: 86px;
+	}
+
+#content #pochemu_mi #cont_pochemu_mi_top h2 {
+	font: 50px Archangelsk;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #222222;
+	}
+#content #pochemu_mi #cont_pochemu_mi_top h2 strong {
+	color:red;
+	}
+	
+#content #pochemu_mi #pochemu_mi_content {}
+
+#content #pochemu_mi #pochemu_mi_content .por {
+	
+    float: left;
+    margin: 10% 4%;
+    min-height: 25%;
+    text-align: center;
+    width: 25%;
+	}
+
+#content #pochemu_mi #pochemu_mi_content .por h3 {
+	background: url("../images/border_content.jpg") repeat-x scroll 0 bottom rgba(0, 0, 0, 0);
+    color: #F1F1F1;
+    font: 3.3em Archangelsk;
+    padding: 15px;
+	}
+#content #pochemu_mi #pochemu_mi_content .por p {
+	font: 16px verdana;
+    padding: 20px;
+    text-align: left;
+	color: #F1F1F1;
+	}
+
+#content #pochemu_mi #pochemu_mi_footer {
+	 background: none repeat scroll 0 0 #A1A1A1;
+    border-top: 3px solid #FF0000;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 85px;
+    position: absolute;
+    width: 100%;
+	}
+#content #pochemu_mi #pochemu_mi_footer .gorod {
+	height: 19px;
+    margin: 33px 15px;
+    width: 144px;
+}
+#content #pochemu_mi #pochemu_mi_footer #niz_buttom_pochemu_mi {
+ background: url("../images/niz.png") no-repeat scroll center 13px rgba(0, 0, 0, 0);
+    border: 2px solid #A9A9A9;
+    border-radius: 87px;
+    bottom: 9px;
+    cursor: pointer;
+    height: 60px;
+    left: 49%;
+    margin: 0 auto;
+    padding: 2px;
+    position: absolute;
+    width: 60px;
+	}
+/* конец блока 2*/
+
+
+/* начало блока 3*/
+#menu_submit_chto_mozhem {
+	background: url("../images/icon_str1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 48px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 48px;
+	cursor: pointer;
+	}
+#menu_submit2_chto_mozhem {
+background: url("../images/icon_str2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 48px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 48px;
+	cursor: pointer;
+	}
+	
+
+#content #chto_mozhem {
+	background:#333;
+    color: #999999;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+	
+#content #chto_mozhem #cont_chto_mozhem_top {
+	background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 3px solid #FF0000;
+    height: 86px;
+	}
+
+#content #chto_mozhem #cont_chto_mozhem_top h2 {
+	font: 50px Archangelsk;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #222222;
+	}
+#content #chto_mozhem #cont_chto_mozhem_top h2 strong {
+	color:red;
+	}
+	
+#content #chto_mozhem #chto_mozhem_content {}
+
+#content #chto_mozhem #chto_mozhem_content .por {
+	
+    float: left;
+    margin: 10% 4%;
+    min-height: 25%;
+    text-align: center;
+    width: 25%;
+	}
+
+#content #chto_mozhem #chto_mozhem_content .por h3 {
+	
+	background: url("../images/border_content.jpg") repeat-x scroll 0 bottom rgba(0, 0, 0, 0);
+    color: #F1F1F1;
+    padding: 15px;
+	}
+#content #chto_mozhem #chto_mozhem_content .por p {
+	padding: 20px;
+	}
+
+#content #chto_mozhem #chto_mozhem_footer {
+	 background: none repeat scroll 0 0 #A1A1A1;
+    border-top: 3px solid #FF0000;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 85px;
+    position: absolute;
+    width: 100%;
+	}
+#content #chto_mozhem #chto_mozhem_footer .gorod {
+	height: 19px;
+    margin: 33px 15px;
+    width: 144px;
+}
+#content #chto_mozhem #chto_mozhem_footer #niz_buttom_chto_mozhem {
+	 background: url("../images/niz.png") no-repeat scroll center 13px rgba(0, 0, 0, 0);
+    border: 2px solid #A9A9A9;
+    border-radius: 87px;
+    bottom: 9px;
+    cursor: pointer;
+    height: 60px;
+    left: 49%;
+    margin: 0 auto;
+    padding: 2px;
+    position: absolute;
+    width: 60px;
+	}
+/* конец блока 3*/
